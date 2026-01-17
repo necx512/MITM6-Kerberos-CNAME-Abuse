@@ -1,6 +1,6 @@
 # Kerberos Authentication Relay - CNAME Abuse Technique
 
-A modified version of [mitm6](https://github.com/dirkjanm/mitm6) designed to support the Kerberos CNAME relay technique.
+A modified version of [mitm6](https://github.com/dirkjanm/mitm6) designed to support the Kerberos CNAME abuse relay technique.
 
 ## Background
 
