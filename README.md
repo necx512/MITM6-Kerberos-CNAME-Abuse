@@ -2,7 +2,7 @@
 
 ## Background
 
-This tool is the proof-of-concept for Kerberos CNAME Abuse Relay technique,.
+This tool is the proof-of-concept for Kerberos CNAME Abuse Relay technique, based on the MITM6 tool.
 
 The research uncovered a flaw in Windows Kerberos client behavior: when a DNS CNAME record is returned, the client follows the alias and constructs the TGS request using the CNAME hostname as the SPN. This allows an attacker with DNS MITM position to coerce any domain user into requesting a Kerberos ticket for an attacker-chosen service, enabling on-demand, cross-protocol relay attacks against SMB, HTTP and other services where signing or Channel Binding is not enforced.
 
